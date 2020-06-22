@@ -6,6 +6,10 @@ let dia = rs.question('qual é o dia do seu aniversário? ')
 
 let mes = rs.question('qual é o mes do seu aniversário?')   
 
+mes = Number(mes);
+
+dia = Number(dia);
+
 if ((dia >= 21 && mes == 3) || dia <= 19 && mes == 4){
     console.log('seu aniversário é XX e seu signo é Aries')
 }
